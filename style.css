@@ -81,21 +81,25 @@ h3{
   .container{
     display: grid;
     grid-template-areas: 
-    "header header"
-    "sidebar main"
-    "footer footer";
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: 200px 1fr;
+    "header header header"
+    "sidebar main main"
+    "footer footer footer";
+    /* grid-template-rows: auto 1fr auto; */
+    grid-template-columns: 150px 3fr;
   }
   .header{
     grid-area: header;
+    background-color: aqua;
   }
   .sidebar{
     grid-area: sidebar;
+    background-color: beige;
   }
   .main{
     grid-area: main;
+    background-color: aquamarine;
   }
   .footer{
     grid-area: footer;
+    background-color:blanchedalmond;
   }

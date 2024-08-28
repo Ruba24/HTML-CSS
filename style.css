@@ -247,3 +247,28 @@ h3{
 .query{
   background-color: blue;
 }
+
+/* <-----------------------------Transition------------------------------>  */
+.transition{
+  background-color: blueviolet;
+  height: 200px;
+  width: 200px;
+  transition: background-color 3s, ease-in-out 5s;
+}
+.transition:hover{
+  background-color: pink;
+  width: 50%;
+}
+.dots{
+  height: 50px;
+  width: 50px;
+  border-radius: 30%;
+  background-color: brown;
+  transition: width 3s, height 3s, transform 5s;
+  transition-delay: 1s;
+}
+.dots:hover{
+  width: 80px;
+  height: 80px;
+  transform: rotate(180deg);
+}

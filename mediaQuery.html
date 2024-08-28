@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+     <style>
+        .query{
+            height: 500px;
+        }
+        @media(max-width:300px){
+            .query{
+                background-color: green;
+            }
+        }
+        @media(min-width:300px) and (max-width:400px){
+            .query{
+                background-color:pink;
+            }
+        }
+        @media(min-width:400px) and (max-width:600px){
+            .query{
+                background-color: red;
+            }
+        }
+        @media (min-width:600px){
+            .query{
+                background-color: blue;
+            }
+        }
+     </style>
+</head>
+<body>
+    <div class="query">Box</div>
+</body>
+</html>
